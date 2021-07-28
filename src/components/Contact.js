@@ -36,8 +36,6 @@ export default class Contact extends React.Component {
     this.setState({
       selectedKey: key
     });
-
-    console.log(key, "is selected");
   }
 
   handleCreate(contact) {
